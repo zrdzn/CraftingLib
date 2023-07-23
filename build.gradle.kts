@@ -6,7 +6,7 @@ plugins {
 }
 
 group = "dev.piotrulla"
-version = "2.0.0"
+version = "2.0.1"
 val artifactId = "craftinglib"
 
 repositories {

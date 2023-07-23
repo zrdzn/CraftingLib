@@ -27,5 +27,5 @@ maven {
 }
 ```
 ```
-implementation("com.github.zrdzn:CraftingLib:2.0.0")
+implementation("com.github.zrdzn:CraftingLib:2.0.1")
 ```
