@@ -12,11 +12,7 @@ public class NewRecipe implements RecipeAccessor {
     public ShapedRecipe createShapedRecipe(ItemStack itemStack, String group) {
         NamespacedKey key = NamespacedKey.minecraft(UUID.randomUUID().toString());
 
-        ShapedRecipe shapedRecipe = new ShapedRecipe(key, itemStack);
-
-        shapedRecipe.setGroup(group);
-
-        return shapedRecipe;
+        return new ShapedRecipe(key, itemStack);
     }
 
     @Override
