@@ -1,6 +1,9 @@
 # CraftingLib
 Simple library for creating custom craftings.
 
+### Changes
+Fork changes java source version from 11 to 8 to support ancient bukkit versions.
+
 Maven:
 ```
 <repository>

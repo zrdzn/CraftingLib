@@ -10,7 +10,7 @@ import java.util.Iterator;
 
 public final class CraftingUtil {
 
-    @Deprecated(forRemoval = true)
+    @Deprecated
     public static void removeRecipe(ItemStack itemStack){
         Iterator<Recipe> recipes = Bukkit.recipeIterator();
 
