@@ -7,14 +7,14 @@ Fork changes java source version from 11 to 8 to support ancient bukkit versions
 Maven:
 ```
 <repository>
-  <id>eternalcode-reposilite</id>
-  <name>EternalCode Repository</name>
-  <url>https://repo.eternalcode.pl/</url>
+  <id>jitpack-repository</id>
+  <name>JitPack Repository</name>
+  <url>https://jitpack.io</url>
 </repository>
 ```
 ```
 <dependency>
-  <groupId>dev.piotrulla</groupId>
+  <groupId>com.github.zrdzn</groupId>
   <artifactId>CraftingLib</artifactId>
   <version>2.0.0</version>
 </dependency>
@@ -23,9 +23,9 @@ Maven:
 Gradle:
 ```
 maven {
-    url = uri("https://repo.eternalcode.pl/")
+    url = uri("https://jitpack.io/")
 }
 ```
 ```
-implementation("dev.piotrulla:CraftingLib:2.0.0")
+implementation("com.github.zrdzn:CraftingLib:2.0.0")
 ```
